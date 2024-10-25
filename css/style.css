@@ -410,9 +410,7 @@ li > a:only-child:after {
   .team-grids {
     padding-left: 32px;
   }
-  .img-res {
-    width: 20020px;
-  }
+ 
 }
 
 .login-icon p {
