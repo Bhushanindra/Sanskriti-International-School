@@ -502,7 +502,7 @@ a.read-more {
 }
 
 .middle ul.social li a {
-  font-size: 13px;
+  font-size: 19px;
   color: #fff;
   display: block;
   text-align: center;
@@ -765,14 +765,15 @@ span.title {
   text-align: center;
 }
 
+/* For screens up to 991px */
 @media (max-width: 991px) {
   .team-info {
     width: 100%; /* Increase width for smaller screens */
-    padding: 1.5em 0; /* Adjust padding for better fit */
+    padding: 1.5em 0; /* Adjust padding */
   }
 }
 
-/* Small screens (phones, 576px and up) */
+/* For screens up to 767px */
 @media (max-width: 767px) {
   .team-info {
     width: 100%; /* Maximize width on smaller screens */
@@ -780,14 +781,29 @@ span.title {
   }
 }
 
-/* Extra small screens (phones, below 576px) */
-@media (max-width: 575px) {
+/* For screens up to 576px */
+@media (max-width: 576px) {
   .team-info {
-    width: 85%; /* Full width on the smallest screens */
-    padding: 1em 0;
-    bottom: -150px; /* Adjust bottom positioning for a smaller screen */
+    width: 85%; /* Adjust width for small mobile screens */
   }
 }
+
+/* For screens between 375px and 475px */
+@media (min-width: 375px) and (max-width: 400px) {
+  .team-info {
+    width: 80%; /* Adjust width for screens between 375px and 475px */
+  }
+}
+@media (min-width: 401px) and (max-width: 475px) {
+  .team-info {
+    width: 73%; /* Adjust width for screens between 375px and 475px */
+  }
+}
+/* Screens between 376px and 574px */
+
+/* Small screens (phones, 576px and up) */
+
+/* Extra small screens (phones, below 576px) */
 
 .team-grids:hover div.team-info {
   bottom: 0;
