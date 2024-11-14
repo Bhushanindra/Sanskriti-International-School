@@ -21,6 +21,14 @@
       function hideURLbar() {
         window.scrollTo(0, 1);
       }
+
+      function handleFormSubmit(event) {
+        document.getElementById("thankYouMessage").style.display = "block";
+
+        setTimeout(() => {
+          event.target.reset();
+        }, 500);
+      }
     </script>
     <!-- //Meta tag Keywords -->
     <!-- Style-CSS -->
@@ -421,58 +429,58 @@
         </div>
         <div class="row news-grids text-center gallery-wrap">
           <div class="col-md-4 gal-img">
-            <a href="#gal1"
+            <a href="#gal2"
               ><img src="images/2.jpg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal2"
+            <a href="#gal3"
               ><img src="images/3.jpg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal3"
+            <a href="#gal4"
               ><img src="images/4.jpg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal4"
+            <a href="#gal5"
               ><img src="images/5.jpg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal5"
+            <a href="#gal6"
               ><img src="images/6.jpg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal6"
+            <a href="#gal7"
               ><img src="images/7.jpg" alt="news image" class="img-fluid"
             /></a>
           </div>
 
           <div class="col-md-4 gal-img">
-            <a href="#gal8"
+            <a href="#gal11"
               ><img src="images/11.jpg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal8"
+            <a href="#gal12"
               ><img src="images/12.jpeg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal8"
+            <a href="#gal13"
               ><img src="images/13.jpeg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal8"
+            <a href="#gal14"
               ><img src="images/14.jpeg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal8"
+            <a href="#gal15"
               ><img
                 src="images/15.jpeg
               "
@@ -482,62 +490,128 @@
           </div>
 
           <div class="col-md-4 gal-img">
-            <a href="#gal8"
+            <a href="#gal17"
               ><img src="images/17.jpeg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal8"
+            <a href="#gal18"
               ><img src="images/18.jpeg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal8"
+            <a href="#gal19"
               ><img src="images/19.jpeg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal7"
+            <a href="#galcomp"
               ><img src="images/comp.jpg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal8"
+            <a href="#galas"
               ><img src="images/Assem.jpg" alt="news image" class="img-fluid"
             /></a>
           </div>
           <div class="col-md-4 gal-img">
-            <a href="#gal8"
+            <a href="#gal16"
               ><img src="images/16.jpeg" alt="news image" class="img-fluid"
             /></a>
           </div>
         </div>
 
         <!-- popup-->
-        <div id="gal1" class="pop-overlay animate">
+        <div id="galcomp" class="pop-overlay animate">
+          <div class="popup">
+            <img src="images/comp.jpg" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="#gallery">&times;</a>
+          </div>
+        </div>
+        <div id="gal13" class="pop-overlay animate">
+          <div class="popup">
+            <img src="images/13.jpeg" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="#gallery">&times;</a>
+          </div>
+        </div>
+        <div id="gal14" class="pop-overlay animate">
+          <div class="popup">
+            <img src="images/14.jpeg" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="#gallery">&times;</a>
+          </div>
+        </div>
+        <div id="gal15" class="pop-overlay animate">
+          <div class="popup">
+            <img src="images/15.jpeg" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="#gallery">&times;</a>
+          </div>
+        </div>
+        <div id="gal16" class="pop-overlay animate">
+          <div class="popup">
+            <img src="images/16.jpeg" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="#gallery">&times;</a>
+          </div>
+        </div>
+        <div id="gal17" class="pop-overlay animate">
+          <div class="popup">
+            <img src="images/17.jpeg" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="#gallery">&times;</a>
+          </div>
+        </div>
+        <div id="gal18" class="pop-overlay animate">
+          <div class="popup">
+            <img src="images/18.jpeg" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="#gallery">&times;</a>
+          </div>
+        </div>
+        <div id="gal19" class="pop-overlay animate">
+          <div class="popup">
+            <img src="images/19.jpeg" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="#gallery">&times;</a>
+          </div>
+        </div>
+        <div id="gal2" class="pop-overlay animate">
           <div class="popup">
             <img src="images/2.jpg" alt="Popup Image" class="img-fluid" />
 
             <a class="close" href="#gallery">&times;</a>
           </div>
         </div>
+        <div id="gal11" class="pop-overlay animate">
+          <div class="popup">
+            <img src="images/11.jpg" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="#gallery">&times;</a>
+          </div>
+        </div>
         <!-- //popup -->
 
         <!-- popup-->
-        <div id="gal2" class="pop-overlay animate">
+        <div id="gal3" class="pop-overlay animate">
           <div class="popup">
-            <img
-              src="images/3.jpg"
-              alt="Popup Image"
-              class="img-fluid styled-image"
-            />
+            <img src="images/3.jpg" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="#gallery">&times;</a>
+          </div>
+        </div>
+        <div id="gal12" class="pop-overlay animate">
+          <div class="popup">
+            <img src="images/12.jpeg" alt="Popup Image" class="img-fluid" />
 
             <a class="close" href="#gallery">&times;</a>
           </div>
         </div>
         <!-- //popup -->
         <!-- popup-->
-        <div id="gal3" class="pop-overlay animate">
+        <div id="gal4" class="pop-overlay animate">
           <div class="popup">
             <img src="images/4.jpg" alt="Popup Image" class="img-fluid" />
 
@@ -546,7 +620,7 @@
         </div>
         <!-- //popup3 -->
         <!-- popup-->
-        <div id="gal4" class="pop-overlay animate">
+        <div id="gal5" class="pop-overlay animate">
           <div class="popup">
             <img src="images/5.jpg" alt="Popup Image" class="img-fluid" />
 
@@ -555,7 +629,7 @@
         </div>
         <!-- //popup -->
         <!-- popup-->
-        <div id="gal5" class="pop-overlay animate">
+        <div id="gal6" class="pop-overlay animate">
           <div class="popup">
             <img src="images/6.jpg" alt="Popup Image" class="img-fluid" />
 
@@ -564,21 +638,15 @@
         </div>
         <!-- //popup -->
         <!-- popup-->
-        <div id="gal6" class="pop-overlay animate">
+        <div id="gal7" class="pop-overlay animate">
           <div class="popup">
             <img src="images/7.jpg" alt="Popup Image" class="img-fluid" />
 
             <a class="close" href="#gallery">&times;</a>
           </div>
         </div>
-        <div id="gal7" class="pop-overlay animate">
-          <div class="popup">
-            <img src="images/comp.jpg" alt="Popup Image" class="img-fluid" />
 
-            <a class="close" href="#gallery">&times;</a>
-          </div>
-        </div>
-        <div id="gal8" class="pop-overlay animate">
+        <div id="galas" class="pop-overlay animate">
           <div class="popup">
             <img src="images/Assem.jpg" alt="Popup Image" class="img-fluid" />
 
@@ -595,7 +663,7 @@
     <section class="team py-5" id="team">
       <div class="container py-xl-5 py-lg-3">
         <div class="heading-grid text-center">
-          <h3 class="tittle text-center heading mb-5">our faculty</h3>
+          <h3 class="tittle text-center heading mb-5">Our faculty</h3>
         </div>
         <div class="row inner-sec-layouts-hello-lauinfo">
           <div class="col-md-4 col-sm-6">
@@ -947,16 +1015,19 @@
           <div class="col-lg col-md-6 contact-grid-wthree">
             <div class="contact_grid_right">
               <form
-                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfiwMitFzIAxQbdNW7xtOYZ9yyml2H6GAyChLa759FdLHhAXQ/formResponse"
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSem9CxT1kiRod5sOkbf_auCyunh88BIcrplCPi2U8YiietrSg/formResponse"
                 method="post"
+                target="hidden_iframe"
+                onsubmit="handleFormSubmit(event) "
               >
                 <div class="contact_left_grid">
                   <div class="con-left">
                     <div class="form-group">
                       <input
+                        style="font-family: 'Courier New', Courier, monospace"
                         class="form-control"
                         type="text"
-                        name="Name"
+                        name="entry.855987408"
                         placeholder="Name"
                         required=""
                       />
@@ -964,16 +1035,21 @@
                     <div class="form-group">
                       <input
                         class="form-control"
-                        type="email"
-                        name="Email"
-                        placeholder="Email"
+                        style="font-family: 'Courier New', Courier, monospace"
+                        type="number"
+                        name="entry.507936627"
+                        placeholder="Number"
                         required=""
                       />
                     </div>
                     <div class="form-group">
                       <textarea
+                        class="form-control"
                         id="textarea"
+                        type="text"
+                        style="font-family: 'Courier New', Courier, monospace"
                         placeholder="Message"
+                        name="entry.1787852026"
                         required=""
                       ></textarea>
                     </div>
@@ -982,9 +1058,26 @@
                         Submit
                       </button>
                     </div>
+                    <div
+                      id="thankYouMessage"
+                      style="
+                        display: none;
+                        font-weight: 500;
+                        text-align: center;
+                        margin-top: 1em;
+                      "
+                    >
+                      Thank you for reaching out! We’ve received your message
+                      and will be in touch with you shortly to assist further😊.
+                    </div>
                   </div>
                 </div>
               </form>
+              <iframe
+                id="hidden_iframe"
+                name="hidden_iframe"
+                style="display: none; width: 100%; height: 300px; border: none"
+              ></iframe>
             </div>
           </div>
           <div
@@ -996,13 +1089,13 @@
                 For more information, please phone or visit the School.
               </p>
               <div class="contact-style-world">
-                <div>
+                <div style="font-size: 0.9em; padding-right: 6em; color: black">
                   <span class="fa fa-map-marker"></span>
                   <strong>Location :</strong> Bhawanipur,Sangrampur ,E.Champaran
                 </div>
               </div>
               <div class="contact-style-world my-2">
-                <div>
+                <div style="font-size: 0.9em; padding-right: 6em; color: black">
                   <span class="fa fa-envelope-open"></span
                   ><strong> Email :</strong> sismotihari@gmail.com
                 </div>
@@ -1010,7 +1103,7 @@
               <div class="contact-style-world">
                 <p>
                   <span class="fa fa-phone"></span
-                  ><strong>Phone :</strong> 7632959359 , 7325004519
+                  ><strong>Phone :</strong> +91-7632959359 , +91-7325004519
                 </p>
               </div>
             </div>
@@ -1029,11 +1122,22 @@
               <h2>
                 <a href="index.html"> Sanskriti International School </a>
               </h2>
-              <p class="my-3">
+              <p class="my-3" style="padding-right: 6em; color: #fff">
                 Bhawanipur,Sangrampur,E.Champaran
                 <br />
-                Mail: sismotihari@gmail.com Phone No.: 021-463423
+                Mail: sismotihari@gmail.com
+                <br />
               </p>
+              <div
+                style="
+                  font-size: 0.9em;
+                  padding-right: 6em;
+                  color: #fff;
+                  padding-bottom: 10px;
+                "
+              >
+                Phone No.: +91-7325004519,+91-7632959359
+              </div>
               <p>
                 Our aim is to provide innovative and enjoyable education, early
                 intervention for pupils, enabling them to become independent,
@@ -1060,9 +1164,7 @@
 
         <p class="copy-right-grids text-li text-center my-sm-4 my-4">
           © 2024. All Rights Reserved | Design by
-          <a href="https://www.facebook.com/bikesh.shrestha.399041/">
-            Indra Bhushan
-          </a>
+          <a href=""> Indra Bhushan </a>
         </p>
         <div class="world-footer text-center mt-4">
           <ul class="list-unstyled world-icons">
@@ -1078,7 +1180,7 @@
               </a>
             </li>
             <li>
-              <a href="https://wa.me/9525802594" target="_blank">
+              <a href="https://wa.me/+91-9525802594" target="_blank">
                 <span class="fa fa-whatsapp"></span>
               </a>
             </li>
@@ -1093,5 +1195,6 @@
       <!-- //footer bottom -->
     </footer>
     <!-- //footer -->
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>

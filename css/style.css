@@ -67,7 +67,8 @@ ul {
   margin: 0;
   padding: 0;
 }
-.container, .container-fluid {
+.container,
+.container-fluid {
   padding-right: 0;
   padding-left: 0;
 }
@@ -764,6 +765,30 @@ span.title {
   text-align: center;
 }
 
+@media (max-width: 991px) {
+  .team-info {
+    width: 100%; /* Increase width for smaller screens */
+    padding: 1.5em 0; /* Adjust padding for better fit */
+  }
+}
+
+/* Small screens (phones, 576px and up) */
+@media (max-width: 767px) {
+  .team-info {
+    width: 100%; /* Maximize width on smaller screens */
+    padding: 1.2em 0;
+  }
+}
+
+/* Extra small screens (phones, below 576px) */
+@media (max-width: 575px) {
+  .team-info {
+    width: 85%; /* Full width on the smallest screens */
+    padding: 1em 0;
+    bottom: -150px; /* Adjust bottom positioning for a smaller screen */
+  }
+}
+
 .team-grids:hover div.team-info {
   bottom: 0;
 }
@@ -1112,7 +1137,7 @@ h6.b-ltxt span {
 
 .contact_grid_right input[type="text"],
 .contact_grid_right input[type="email"],
-.contact_grid_right textarea {
+.contact-style-world input[type="number"] .contact_grid_right textarea {
   outline: none;
   padding: 13px 15px;
   font-size: 16px;
