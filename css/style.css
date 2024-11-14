@@ -88,8 +88,9 @@ header {
 /* Giving a background-color to the nav container. */
 
 nav {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  width: 100%;
 }
 
 img {
@@ -377,6 +378,7 @@ li > a:only-child:after {
     padding: 15px 0;
     text-align: center;
     width: 100%;
+    margin: 0;
   }
 
   .menu .toggle {
@@ -1037,7 +1039,7 @@ section#gallery {
 
 /* testimonials */
 .testi {
-  background: url(../images/banner4.jpg) no-repeat 0px 0px;
+  /* background: url(../images/banner4.jpg) no-repeat 0px 0px; */
   background-size: cover;
   position: relative;
 }
