@@ -787,16 +787,27 @@ span.title {
     width: 85%; /* Adjust width for small mobile screens */
   }
 }
-
+@media (min-width: 441px) and (max-width: 460px) {
+  .team-info {
+    width: 70%; /* Adjust width for screens between 375px and 475px */
+  }
+}
+@media (min-width: 401px) and (max-width: 440px) {
+  .team-info {
+    width: 73%; /* Adjust width for screens between 375px and 475px */
+  }
+}
 /* For screens between 375px and 475px */
 @media (min-width: 375px) and (max-width: 400px) {
   .team-info {
     width: 80%; /* Adjust width for screens between 375px and 475px */
   }
 }
-@media (min-width: 401px) and (max-width: 475px) {
+
+
+@media (min-width: 461px) and (max-width: 570px) {
   .team-info {
-    width: 73%; /* Adjust width for screens between 375px and 475px */
+    width: 55%; /* Adjust width for screens between 375px and 475px */
   }
 }
 /* Screens between 376px and 574px */
