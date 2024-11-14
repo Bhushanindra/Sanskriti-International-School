@@ -787,6 +787,11 @@ span.title {
     width: 85%; /* Adjust width for small mobile screens */
   }
 }
+@media (min-width: 461px) and (max-width: 570px) {
+  .team-info {
+    width: 55%; /* Adjust width for screens between 375px and 475px */
+  }
+}
 @media (min-width: 441px) and (max-width: 460px) {
   .team-info {
     width: 70%; /* Adjust width for screens between 375px and 475px */
@@ -805,11 +810,7 @@ span.title {
 }
 
 
-@media (min-width: 461px) and (max-width: 570px) {
-  .team-info {
-    width: 55%; /* Adjust width for screens between 375px and 475px */
-  }
-}
+
 /* Screens between 376px and 574px */
 
 /* Small screens (phones, 576px and up) */
